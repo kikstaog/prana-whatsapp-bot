@@ -1,0 +1,46 @@
+📋 ESSENTIAL FILES FOR BOT TESTING:
+
+Core Files (Keep Open):
+1. app.py - Main Flask application
+2. custom_whatsapp_bot.py - Bot logic and intelligence
+3. bot_data/ - Menu data and responses
+
+Quick Test Files (Optional):
+4. test_bot.py - For local testing
+5. quick_test.py - Quick functionality tests
+
+Documentation (Reference):
+6. QUICK_START_TOMORROW.md - Current status and setup
+7. TWILIO_SETUP.md - Twilio configuration
+
+🚀 TO TEST BOT AGAIN:
+1. Open terminal in prana_whatsapp_bot folder
+2. Run: python app.py
+3. Open new terminal: lt --port 5000
+4. Update Twilio webhook with new localtunnel URL
+5. Test via WhatsApp
+
+💾 FILES YOU CAN CLOSE:
+- All test files (test_*.py)
+- Documentation files (can reopen if needed)
+- Setup files (setup_*.py, deploy.py)
+- Menu creation files (add_menu_items.py, create_menu_text.py)
+
+IMPORTANT: Keep app.py and custom_whatsapp_bot.py open - these are the core files!
+
+Current Status:
+- Flask app: Running on port 5000
+- localtunnel: https://empty-parents-smoke.loca.lt
+- Bot responding: ✅ YES
+
+Features Working:
+✅ Health questions: "tengo gripe", "estoy enfermo"
+✅ Menu questions: "menu", "jugos", "shots"
+✅ Hours: "horarios", "cuales son los horarios"
+✅ Greetings: "hola", "hello"
+✅ Goodbye: "adios", "gracias"
+✅ GPS locations: "castellana", "palos grandes"
+✅ Milks category: "milks", "milky way", "go nuts"
+✅ Extras category: "extras", toppings
+
+Last Updated: Today - Bot working perfectly! 🎉 

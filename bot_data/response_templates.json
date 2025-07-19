@@ -1,0 +1,54 @@
+{
+  "welcome": [
+    "¡Hola! Soy Prana, tu asistente de Prana Juice Bar 🥤",
+    "¿Cómo te pudiera ayudar el día de hoy?"
+  ],
+  "menu_intro": [
+    "Aquí tienes nuestro menú delicioso:",
+    "¿Qué te gustaría probar hoy?"
+  ],
+  "order_confirmation": [
+    "¡Perfecto! Tu pedido ha sido confirmado.",
+    "Te enviaremos una confirmación por WhatsApp.",
+    "¿Necesitas algo más?"
+  ],
+  "hours": [
+    "Nuestros horarios de atención:",
+    "Domingos y Lunes: 7:00 AM - 10:00 PM",
+    "Martes a Sábados: 7:00 AM - 11:00 PM"
+  ],
+  "location": [
+    "📍 *NUESTRAS UBICACIONES:*",
+    "",
+    "🏪 *PRANA LA CASTELLANA*",
+    "Avenida Mohedano, Caracas 1060, Chacao, Distrito Capital",
+    "📱 https://maps.google.com/?q=10.4980742,-66.8539189",
+    "",
+    "🏪 *PRANA LOS PALOS GRANDES*", 
+    "Transversal 3 entre 3ra y 4ta, Los Palos Grandes, Caracas, Distrito Capital",
+    "📱 https://maps.google.com/?q=10.5011756,-66.8435612",
+    "",
+    "💡 *Haz clic en los enlaces para obtener direcciones GPS*",
+    "¡Te esperamos en cualquiera de nuestras sedes!"
+  ],
+  "support": [
+    "¿Necesitas ayuda?",
+    "Puedes contactarnos directamente o hablar con nuestro equipo.",
+    "¿En qué puedo ayudarte?"
+  ],
+  "website": [
+    "🌐 *NUESTRO SITIO WEB:*",
+    "",
+    "📱 *PRANA JUICE BAR ONLINE*",
+    "https://prana-website.loca.lt",
+    "",
+    "✨ *Características:*",
+    "• Menú completo con fotos",
+    "• Pedidos en línea",
+    "• Carrito de compras",
+    "• Pago con Zelle/Venmo",
+    "• Entrega a domicilio",
+    "",
+    "💡 *¡Ordena fácilmente desde tu computadora o celular!*"
+  ]
+}

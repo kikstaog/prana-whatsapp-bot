@@ -1,0 +1,27 @@
+{
+  "bot_name": "Prana Juice Bot",
+  "language": "es",
+  "timezone": "America/Mexico_City",
+  "features": {
+    "nlu": true,
+    "qna": true,
+    "analytics": true,
+    "whatsapp": true
+  },
+  "menu_categories": [
+    "Almuerzos",
+    "Bake Goods",
+    "Batidos",
+    "Desayunos",
+    "Extras",
+    "Jugos Cold Pressed",
+    "Milks",
+    "Postres",
+    "Prana Cakes",
+    "Shots",
+    "Zumos Frescos"
+  ],
+  "total_menu_items": 59,
+  "inventory_items": 920,
+  "sales_records": 191
+}

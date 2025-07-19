@@ -1,0 +1,41 @@
+{
+  "total_records": 191,
+  "columns": [
+    "descripción",
+    "cantidad",
+    "precio unitario",
+    "total vendido"
+  ],
+  "sample_data": [
+    {
+      "descripción": "almendratopping",
+      "cantidad": 47.0,
+      "precio unitario": 0.21,
+      "total vendido": 9.87
+    },
+    {
+      "descripción": "avenatopping",
+      "cantidad": 307.0,
+      "precio unitario": 0.37,
+      "total vendido": 113.59
+    },
+    {
+      "descripción": NaN,
+      "cantidad": 0.0,
+      "precio unitario": 0.0,
+      "total vendido": 0.0
+    },
+    {
+      "descripción": "cacao nibs topping",
+      "cantidad": 442.0,
+      "precio unitario": 0.84,
+      "total vendido": 371.28
+    },
+    {
+      "descripción": "chia topping",
+      "cantidad": 549.0,
+      "precio unitario": 0.42,
+      "total vendido": 230.58
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "menu_items": [
+    {
+      "name": "Zumo Verde Detox",
+      "price": 8.5,
+      "category": "Zumos Frescos",
+      "ingredients": [
+        "Espinaca",
+        "Pepino",
+        "Manzana verde",
+        "Jengibre",
+        "Limón"
+      ],
+      "description": "Zumo detoxificante con espinaca y jengibre",
+      "available": true
+    },
+    {
+      "name": "Zumo Naranja Natural",
+      "price": 6.0,
+      "category": "Zumos Frescos",
+      "ingredients": [
+        "Naranjas frescas"
+      ],
+      "description": "Zumo de naranja 100% natural recién exprimido",
+      "available": true
+    },
+    {
+      "name": "Batido de Fresa y Plátano",
+      "price": 9.0,
+      "category": "Batidos",
+      "ingredients": [
+        "Fresas",
+        "Plátano",
+        "Leche de almendras",
+        "Miel"
+      ],
+      "description": "Batido cremoso de fresa y plátano",
+      "available": true
+    },
+    {
+      "name": "Bowl de Acai Clásico",
+      "price": 12.0,
+      "category": "Bowl de Acai",
+      "ingredients": [
+        "Acai",
+        "Granola",
+        "Plátano",
+        "Fresas",
+        "Miel"
+      ],
+      "description": "Bowl nutritivo de acai con granola y frutas",
+      "available": true
+    },
+    {
+      "name": "Shot de Jengibre",
+      "price": 3.5,
+      "category": "Extras",
+      "ingredients": [
+        "Jengibre fresco",
+        "Limón"
+      ],
+      "description": "Shot energizante de jengibre y limón",
+      "available": true
+    },
+    {
+      "name": "CITRUS",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "pina",
+        "naranja",
+        "toronja",
+        "hierbabuena"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "INMUNITY",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "naranja",
+        "parchita",
+        "limon",
+        "jengibre",
+        "cayena",
+        "agua de coco"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "Cool Melon",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "patilla",
+        "pepino",
+        "hierbabuena"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "PINA BLIZZ",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "PIÑA",
+        "HIERBABUENA",
+        "MACA"
+      ],
+      "description": "500ML",
+      "available": true
+    },
+    {
+      "name": "N4",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "celery",
+        "pepino",
+        "manzana verde",
+        "limon"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "GREEN DAY",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "celery",
+        "pepino",
+        "lechuga romana",
+        "cilantro",
+        "limon",
+        "jengibre"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "ez-green",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "pina",
+        "celery",
+        "espinaca"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "red roots",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "zanahoria",
+        "pepino",
+        "remolacha",
+        "limon",
+        "jengibre",
+        "pina"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "dalai lama",
+      "price": 6.5,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "pina",
+        "naranja",
+        "zanahoria",
+        "curcuma",
+        "jengibre"
+      ],
+      "description": "s",
+      "available": true
+    },
+    {
+      "name": "jugo de zanahoria",
+      "price": 8.0,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "zanahoria"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "jugo celery",
+      "price": 8.0,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "celery"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "milky way",
+      "price": 8.0,
+      "category": "Milks",
+      "ingredients": [
+        "merey",
+        "agua",
+        "miel",
+        "vainilla"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "go nuts",
+      "price": 8.0,
+      "category": "Milks",
+      "ingredients": [
+        "almendra",
+        "agua",
+        "canela",
+        "datiles",
+        "nuez moscada"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "flu shot",
+      "price": 1.5,
+      "category": "Shots",
+      "ingredients": [
+        "jengibre",
+        "limon",
+        "cayena"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "ginger shot",
+      "price": 1.5,
+      "category": "Shots",
+      "ingredients": [
+        "jengibre"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "power maca",
+      "price": 1.5,
+      "category": "Shots",
+      "ingredients": [
+        "pina",
+        "limon",
+        "maca",
+        "jengibre"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "orange baby",
+      "price": 1.5,
+      "category": "Shots",
+      "ingredients": [
+        "naranja",
+        "jengibre",
+        "limon",
+        "miel"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "bowl de chia",
+      "price": 3.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "base de pudin de chia",
+        "leche avena"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "chia pudding",
+      "price": 4.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "chia negra",
+        "leche de avena",
+        "frutas de temporada",
+        "canela",
+        "miel"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "yogurt con granola",
+      "price": 5.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "yogurt griego",
+        "frutas de temporada",
+        "canela",
+        "granola",
+        "miel"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "pancakes de avena",
+      "price": 4.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "harina de avena",
+        "huevo",
+        "leche de avena",
+        "miel"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "chocolate pancakes",
+      "price": 5.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "harina de avena",
+        "huevo",
+        "leche de avena",
+        "miel",
+        "chocolate chips"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "desayuno ejecutivo",
+      "price": 13.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "pancakes de avena",
+        "tostada prana",
+        "opcion de pudding chi o yogurt"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "banana nut",
+      "price": 7.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "base de cambur",
+        "merey",
+        "coco",
+        "mantequilla mani"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "berry blend",
+      "price": 8.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "acai",
+        "mora",
+        "fresa",
+        "cambur",
+        "merey"
+      ],
+      "description": "500ml",
+      "available": true
+    },
+    {
+      "name": "tostada dulce",
+      "price": 8.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "opciones de mantequilla una",
+        "frutas de temporada"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "tostada de aguacate",
+      "price": 8.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "pan masa madre",
+        "aguacate",
+        "sal marina",
+        "rugula",
+        "aceita oliva",
+        "peperoncino"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "tostada de hummus",
+      "price": 8.0,
+      "category": "Desayunos",
+      "ingredients": [
+        "pan masa madre",
+        "hummus de tu eleccion",
+        "tomate horneado",
+        "pimenton rostizado",
+        "rabano",
+        "aceite oliva"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "tostada prana",
+      "price": 8.0,
+      "category": "Jugos Cold Pressed",
+      "ingredients": [
+        "2"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "bowl de falafel",
+      "price": 10.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "bowl mexicano",
+      "price": 9.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "buddha bowl",
+      "price": 9.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "ensalada de lentejas",
+      "price": 7.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "ensalada quinoa y aguacate",
+      "price": 7.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "thai wrap",
+      "price": 8.5,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "pannini de hummus",
+      "price": 8.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "panini mediterraneo",
+      "price": 8.0,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "spring rolls",
+      "price": 8.5,
+      "category": "Almuerzos",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "bolitas de cambur y chocolate",
+      "price": 1.0,
+      "category": "Bake Goods",
+      "ingredients": [
+        "avena",
+        "cambur",
+        "chocolate",
+        "chia",
+        "miel",
+        "aceite de coco"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "energy balls de zanahoria",
+      "price": 2.0,
+      "category": "Bake Goods",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "muffin de cambur con chocolate",
+      "price": 4.0,
+      "category": "Bake Goods",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "muffin de cambur nueces y pasas",
+      "price": 4.0,
+      "category": "Bake Goods",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "trufa de datiles",
+      "price": 3.0,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "pecan turtles",
+      "price": 3.0,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "rocas de chocolate",
+      "price": 3.0,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "rocas de chocolate blanco",
+      "price": 3.0,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "cheesecake de mora",
+      "price": 5.5,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "panna cotta",
+      "price": 5.5,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "chocolate chip cookies",
+      "price": 2.0,
+      "category": "Postres",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "brownie de calabacin",
+      "price": 4.0,
+      "category": "Prana Cakes",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "banana bread",
+      "price": 4.0,
+      "category": "Prana Cakes",
+      "ingredients": [
+        "cambur",
+        "harina de avena",
+        "miel",
+        "chocolate",
+        "canela",
+        "sal marina"
+      ],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "cookie pie",
+      "price": 4.0,
+      "category": "Prana Cakes",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "raw snicker",
+      "price": 8.5,
+      "category": "Prana Cakes",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "full cheesecake",
+      "price": 37.0,
+      "category": "Prana Cakes",
+      "ingredients": [],
+      "description": "",
+      "available": true
+    }
+  ],
+  "categories": [
+    "Jugos Cold Pressed",
+    "Desayunos",
+    "Almuerzos",
+    "Bake Goods",
+    "Milks",
+    "Shots",
+    "Postres",
+    "Prana Cakes"
+  ]
+}
