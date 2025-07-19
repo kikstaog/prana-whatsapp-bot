@@ -1,54 +1,8 @@
 # 🥤 Prana Juice Bar WhatsApp Bot
 
-A comprehensive WhatsApp AI agent bot for Prana Juice Bar, built with Botpress and integrated with existing business intelligence data.
+A **custom-built WhatsApp bot** for Prana Juice Bar, developed from scratch with 680 lines of Python code. Features menu management, order processing, health recommendations, and multi-language support.
 
-## 📁 Project Structure
-
-```
-prana_whatsapp_bot/
-├── 📋 whatsapp_bot_setup.py      # Main setup script
-├── 📦 requirements_whatsapp_bot.txt  # Python dependencies
-├── 📁 menu_images/               # Place menu1.jpg to menu8.jpg here
-├── 📁 data/                      # Additional data files
-├── 📁 bot_data/                  # Generated bot configuration files
-├── 📁 docs/                      # Documentation
-│   ├── whatsapp_bot_implementation.md
-│   └── QUICK_START_WHATSAPP_BOT.md
-└── 📄 README.md                  # This file
-```
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-```bash
-pip install -r requirements_whatsapp_bot.txt
-```
-
-### 2. Add Menu Images
-Place your menu images (menu1.jpg to menu8.jpg) in the `menu_images/` folder.
-
-### 3. Run Setup Script
-```bash
-python whatsapp_bot_setup.py
-```
-
-### 4. Check Generated Files
-The script will create structured data in the `bot_data/` folder:
-- `menu_items.json` - Extracted menu data
-- `bot_config.json` - Botpress configuration
-- `response_templates.json` - Spanish response templates
-- `menu_structure.json` - Organized menu by category
-- `inventory_summary.json` - Inventory data summary
-- `sales_summary.json` - Sales data summary
-
-## 📊 Data Integration
-
-This bot integrates with your existing Prana ML project:
-- **Inventory Data**: `../prana_ml/data/inv_prana_may.xls`
-- **Sales Data**: `../prana_ml/data/cleaned_sales.csv`
-- **Menu Images**: Your 8 menu JPGs with Spanish content
-
-## 🎯 Features
+## 🚀 Features
 
 ### Core Functionality
 - 📋 **Menu Display** - Show menu items with ingredients (Spanish)
@@ -63,17 +17,65 @@ This bot integrates with your existing Prana ML project:
 - 📈 **Analytics Integration** - Connect with existing Prana ML data
 - 💳 **Loyalty Program** - Points and rewards system
 - 📱 **Multi-language Support** - Spanish primary, English secondary
+- 🏥 **Health Recommendations** - Suggest drinks based on health needs
+- 📍 **Location Services** - Multiple restaurant locations
 
-## 🛠️ Implementation
+## 🛠️ Technical Implementation
 
-### Recommended Platform: Botpress
-- **Why Botpress**: Easiest implementation, visual interface, direct WhatsApp integration
-- **Cost**: $200/month (Professional Plan)
-- **Setup Time**: 1-2 weeks vs 2-3 months for Rasa
+### Built From Scratch With:
+- **Python** - 680 lines of custom bot logic
+- **Flask** - Web server for WhatsApp webhooks
+- **Twilio API** - WhatsApp Business API integration
+- **OCR (pytesseract)** - Menu image text extraction
+- **JSON** - Data management and configuration
+- **Regular Expressions** - Pattern matching for user queries
 
-### Alternative Platforms
-- **Rasa**: More powerful but requires significant development
-- **Landbot**: Good for simple flows but less flexible
+### Architecture
+```
+prana_whatsapp_bot/
+├── 📋 custom_whatsapp_bot.py    # Main bot logic (680 lines)
+├── 🌐 app.py                    # Flask web server
+├── 📦 requirements.txt          # Python dependencies
+├── 📁 menu_images/             # Menu images for OCR processing
+├── 📁 bot_data/                # Generated configuration files
+├── 📁 docs/                    # Documentation
+└── 📄 README.md                # This file
+```
+
+## 📊 Data Integration
+
+This bot integrates with your existing Prana ML project:
+- **Inventory Data**: `../prana_ml/data/inv_prana_may.xls`
+- **Sales Data**: `../prana_ml/data/cleaned_sales.csv`
+- **Menu Images**: 8 menu JPGs with Spanish content
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Set Up Environment Variables
+Create a `.env` file with:
+```
+TWILIO_ACCOUNT_SID=your_twilio_sid
+TWILIO_AUTH_TOKEN=your_twilio_token
+TWILIO_PHONE_NUMBER=your_whatsapp_number
+```
+
+### 3. Add Menu Images
+Place your menu images (menu1.jpg to menu8.jpg) in the `menu_images/` folder.
+
+### 4. Run Setup Script
+```bash
+python whatsapp_bot_setup.py
+```
+
+### 5. Start the Bot
+```bash
+python app.py
+```
 
 ## 📈 Expected Results
 
@@ -86,19 +88,16 @@ This bot integrates with your existing Prana ML project:
 
 | Item | Cost | Frequency |
 |------|------|-----------|
-| Botpress Professional | $200 | Monthly |
-| WhatsApp Business API | $50-100 | Monthly |
-| **Total** | **$250-300** | **Monthly** |
+| Twilio WhatsApp API | $50-100 | Monthly |
+| **Total** | **$50-100** | **Monthly** |
 
-## 📚 Documentation
-
-- **Implementation Guide**: `docs/whatsapp_bot_implementation.md`
-- **Quick Start Guide**: `docs/QUICK_START_WHATSAPP_BOT.md`
-- **Setup Report**: `bot_data/setup_report.md` (generated after running setup)
+*No expensive platform fees - built entirely from scratch!*
 
 ## 🔧 Technical Details
 
 ### Dependencies
+- **Flask**: Web framework for handling webhooks
+- **Twilio**: WhatsApp Business API integration
 - **OCR Processing**: pytesseract for menu image text extraction
 - **Data Processing**: pandas for inventory and sales data
 - **Image Handling**: Pillow for menu image processing
@@ -129,20 +128,18 @@ This bot integrates with your existing Prana ML project:
 
 ## 🚀 Next Steps
 
-1. **Run the setup script** to process your data
-2. **Sign up for Botpress** and create your bot
-3. **Import the generated data** from `bot_data/` folder
-4. **Set up WhatsApp Business API** integration
-5. **Configure conversation flows** using the templates
-6. **Test with your team** and launch to customers
+1. **Set up Twilio WhatsApp Business API**
+2. **Configure webhook URL** in Twilio console
+3. **Deploy to cloud platform** (Heroku, Railway, etc.)
+4. **Test with your team** and launch to customers
 
 ## 📞 Support
 
 For questions or issues:
 1. Check the documentation in the `docs/` folder
 2. Review the setup report in `bot_data/setup_report.md`
-3. Refer to Botpress documentation: https://botpress.com/docs
+3. Check the Flask app logs for debugging
 
 ---
 
-**Ready to create your WhatsApp bot? Start with the setup script! 🚀** 
+**Custom-built WhatsApp bot - no expensive platforms needed! 🚀** 
